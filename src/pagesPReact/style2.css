@@ -1,0 +1,189 @@
+
+  
+  #equipe .centrer {
+   
+    color: #720768;
+    margin-top:20px;
+    margin-left:580px;
+    font-weight:800;
+    font-size:50px;
+    margin-bottom:30px;
+  }
+   #intro .centrer {
+    
+    color: #720768;
+    margin-top:100px;
+    margin-left:230px;
+    font-weight:800;
+    font-size:50px;
+    
+  }
+   #objectifs  .centrer1 {
+    color: #720768;
+    margin-top:50px;
+    margin-bottom:15px;
+  margin-left:300px;
+    font-weight:800;
+    font-size:50px;
+    
+  }
+  #actions .centrer {
+    color: #720768;
+    margin-top:50px;
+    margin-left:250px;
+    font-weight:800;
+    font-size:50px;
+    
+  }
+  #tab1 {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+  }
+  #tab1 tr {
+    height: 70px;
+  }
+  #tab1 th, #tab1 td {
+    border: 1px solid #dddddd9d;
+    padding: 12px;
+  }
+  
+  #tab1 th {
+    background-color: #720768;
+    color: white;
+
+  }
+  
+  #tab1 tr:nth-child(even) {
+    background-color: hsl(48, 59%, 86%);
+  }
+  
+  #tab1 tr:hover {
+    background-color: rgb(198, 162, 212);
+   
+  }
+  
+  
+  #liste1 {
+    width: 70%;
+    margin: 0 auto 30px;
+    padding-left: 20px;
+    font-size: 1.1em;
+  }
+  
+  #liste1 li {
+    margin-bottom: 10px;
+  }
+  
+
+
+
+  #objectifs .c1{
+    color:hsl(49, 100%, 85%);
+    font-weight: 800;
+    font-size:30px;
+    font-family: "Pacifico", cursive;
+  }
+  
+  #objectifs {
+    background-color: rgba(195, 71, 197, 0.552);
+    padding-left:280px;
+    padding-bottom:40px;
+    padding-top:5px;
+    margin-top:20px;
+    margin-bottom:30px;
+    height:auto;
+  }
+  
+  #objectifs  p{
+
+  color:black;
+  font-size:25px;
+  font-weight:bold;
+  line-height: 2;
+  }
+  
+   #equipe {
+    background: rgb(206, 191, 227);
+    padding:30px;
+    
+  }
+
+  #actions{
+    background-color: rgb(218, 204, 237);
+    padding-left:280px;
+    padding-bottom:40px;
+    font-weight:bold;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 2.4;
+    margin-top:20px;
+    text-align: justify;    
+    margin-bottom:30px;
+  }
+  #intro {
+    padding-left:280px;
+    padding-bottom:40px;
+    font-weight:bold;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 2.4;
+    margin-top:90px;
+    margin-bottom:30px;
+    text-align: justify;    
+
+  }
+  @media (max-width: 768px) {
+    /* Centrage des titres */
+    #intro .centrer,
+    #equipe .centrer,
+    #objectifs .centrer1,
+    #actions .centrer {
+      font-size: 32px;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    /* Conteneurs principaux */
+    #intro,
+    #objectifs,
+    #actions {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 1.1em;
+      line-height: 1.8;
+      text-align: left;
+    }
+  
+    /* Table responsive */
+    #tab1 {
+      width: 100%;
+      font-size: 0.9em;
+    }
+  
+    /* Liste responsive */
+    #liste1 {
+      width: 100%;
+      padding-left: 15px;
+      font-size: 1em;
+    }
+  
+    /* Équipe */
+    #equipe {
+      padding: 20px;
+    }
+  
+    /* Réduire les marges verticales */
+    #intro, #objectifs, #actions, #equipe {
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  
+    /* Moins d'espace entre lignes */
+    #objectifs, #actions {
+      line-height: 1.8;
+    }
+  }
+  

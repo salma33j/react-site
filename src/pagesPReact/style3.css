@@ -1,0 +1,34 @@
+footer {
+    background-color: rgb(138, 7, 152);
+    color: white;
+    padding:20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap:
+  15px;
+    margin-top: 10px;
+  }
+
+
+  footer p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  footer .highligh {
+    color: #00aaff;
+    font-weight: bold;
+  }
+  footer .social-icons a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition:
+  transform 0.3s ease, box-shadow 0.3s ease;
+  }

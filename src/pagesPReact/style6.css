@@ -1,0 +1,56 @@
+/* Style général de la section des membres */
+.members-section {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  background:#fc82df;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top:50px;
+  text-align: center;
+}
+
+.members-section h2 {
+  margin-top:60px;
+  font-size: 2.5rem;
+  color: #4a023e;
+  font-weight:bold;
+  margin-bottom: 15px;
+}
+
+.members-section p {
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+/* Style des cartes des membres */
+.member-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 20px;
+  width:50%; 
+  margin:auto;
+  margin-bottom:40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card h3 {
+  font-size: 2rem;
+  color: #8b1bbb;
+  margin-bottom: 10px;
+}
+
+.member-card p {
+  font-size: 2rem;
+  color: #7f8c8d;
+}
+
+/* Effet au survol des cartes */
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
