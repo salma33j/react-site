@@ -2,7 +2,7 @@
 // Navbar.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../pagesPReact/style1.css';
+import './style1.css';
 import logo from './logo.png';
 
 function Navbar() {
@@ -11,7 +11,7 @@ function Navbar() {
   const toggleMenu = () => {
     setIsMenuOpen(prev => !prev);
   };
-
+  
   return (
     <header>
       <div className="navbar">
@@ -31,6 +31,7 @@ function Navbar() {
           <Link to="/page4">Activité</Link>
           <Link to="/page6">Membres</Link>
           <Link to="/page5">Contact</Link>
+          
         </div>
       </div>
     </header>

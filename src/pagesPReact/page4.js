@@ -1,13 +1,13 @@
 import React from "react";
-import '../pagesPReact/style4.css'
+import './style4.css'
 
 // Import des images locales
-import despImg from "../pagesPReact/Desp.png";
-import web3Img from "../pagesPReact/3.0.png";
-import javaImg from "../pagesPReact/java.png";
-import resImg from "../pagesPReact/res.png";
-import mobileImg from "../pagesPReact/mobile.png";
-import netImg from "../pagesPReact/NET.png";
+import despImg from "./Desp.png";
+import web3Img from "./3.0.png";
+import javaImg from "./java.png";
+import resImg from "./res.png";
+import mobileImg from "./mobile.png";
+import netImg from "./NET.png";
 
 const activities = [
   {
@@ -45,7 +45,6 @@ const activities = [
 export default function Activities() {
   return (
     <div className="div1">
-
     <h3>Nos Activités</h3>
     <div className="activitie">
       {activities.map((activity, index) => (
@@ -59,3 +58,11 @@ export default function Activities() {
     </div>
   );
 }
+
+
+
+
+
+
+
+

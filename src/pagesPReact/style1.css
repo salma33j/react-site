@@ -36,13 +36,28 @@
 
 .nav-links a:hover {
   
-  background-color: hsl(278, 76%, 81%);
+  background-color: #f49ed3;
 }
 
 .logo img {
   width: 140px;
   height: 75px;
   border-radius: 10%;
+}
+.boton1 {
+  padding: 10px 20px;
+  background-color: #e7a6ce;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(195, 132, 178, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.boton1:hover {
+  background-color: #da77ce;
 }
 
 .extra-content {
@@ -68,7 +83,6 @@
 
 .text-container h1 {
   font-weight: 700;
-  margin-bottom: 20px;
   font-size: 40px;
 }
 
@@ -113,6 +127,8 @@
     transition: 0.3s;
     z-index: 999;
   }
+
+  
 
   /* Afficher le menu quand la classe "active" est ajoutée */
   .nav-links.active {

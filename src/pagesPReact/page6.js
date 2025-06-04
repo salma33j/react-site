@@ -1,5 +1,5 @@
 import React from "react";
-import '../pagesPReact/style6.css'; // Assure-toi que le fichier existe
+import './style6.css'; // Assure-toi que le fichier existe
 
 const Members = () => {
   const members = [

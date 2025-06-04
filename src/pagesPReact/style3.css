@@ -1,3 +1,4 @@
+
 footer {
     background-color: rgb(138, 7, 152);
     color: white;
@@ -6,18 +7,18 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    height: 130px;
   }
   footer .social-icons {
     display: flex;
     justify-content: center;
-    gap:
-  15px;
+    gap:15px;
     margin-top: 10px;
   }
 
 
   footer p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
     color: #ccc;
   }
@@ -26,9 +27,14 @@ footer {
     font-weight: bold;
   }
   footer .social-icons a img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    transition:
-  transform 0.3s ease, box-shadow 0.3s ease;
   }
+
+
+  footer .social-icons a img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../pagesPReact/style2.css'; // Le fichier CSS personnalisé
+import './style2.css'; // Le fichier CSS personnalisé
 function Apropos() {
   return (
     <div>
